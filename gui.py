@@ -13,7 +13,7 @@ from bilibili_api import BilibiliAPI
 class BilibiliDownloaderGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("Bilibili视频下载器 Pro")
+        self.root.title("Bilibili视频下载器")
         self.root.geometry("700x850")
         self.root.resizable(False, False)
 
@@ -743,3 +743,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
